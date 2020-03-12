@@ -6243,7 +6243,7 @@ button.bg-dark:focus {
   display: inline-flex !important;
 }
 
-@media (max-width: 576px) {
+@media (min-width: 576px) {
   .d-sm-none {
     display: none !important;
   }
@@ -9935,7 +9935,7 @@ p {
 }
 
 .page {
-  height: 19rem;
+  height: 25rem;
   width: 100%;
   border-top: 1px solid #d1d1d1;
   padding: 5rem 4rem;
@@ -9950,9 +9950,11 @@ p {
 
 .naomi {
   font-weight: 700;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-family: "Playfair Display", serif;
   font-style: italic;
+  padding: 0.2rem 0.2rem;
+  text-align: center;
 }
 
 .page--img--texto {
@@ -9973,6 +9975,7 @@ p {
   background-color: #e6e7e7;
   height: 7rem;
   padding: 1rem 1rem;
+  position: relative;
 }
 
 .pagination--container--item {
